@@ -1,0 +1,17 @@
+{
+  "filename": "bug_data.csv",
+  "total_rows": 100,
+  "total_columns": 42,
+  "text_columns": [
+    "Issue URL",
+    "Creator Detail",
+    "Assigned to"
+  ],
+  "label_columns": [
+    "Issue URL",
+    "Classification",
+    "Status"
+  ],
+  "recommended_text": "Issue URL",
+  "recommended_label": "Issue URL"
+}
