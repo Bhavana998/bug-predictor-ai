@@ -1,10 +1,10 @@
-# 🚀 AI Bug Predictor
-
-### Predict Software Bugs Before They Happen using Machine Learning
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bhavana998-bug-predictor-ai-app-he5oy3.streamlit.app/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
+# 🚀 AI Bug Predictor
+
+### Predict Software Bugs Before They Happen using Machine Learning
 
 ---
 
