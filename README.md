@@ -58,28 +58,13 @@ This project uses Machine Learning models trained on historical software data to
 ## ⚙️ System Architecture
 
 ```mermaid
-flowchart TD
-    Start([User Input Metrics]) --> Input[Enter LOC, Complexity, Churn]
-    Input --> Validate{Validate Data}
-    
-    Validate -->|Invalid| Error[Show Error Message]
-    Error --> Input
-    
-    Validate -->|Valid| Extract[Extract Features]
-    Extract --> Load[Load ML Model]
-    Load --> Predict[Make Prediction]
-    
-    Predict --> Risk{Risk Level}
-    
-    Risk -->|High| HighRisk[🔴 High Risk - Bug Likely]
-    Risk -->|Medium| MedRisk[🟡 Medium Risk - Review Needed]
-    Risk -->|Low| LowRisk[🟢 Low Risk - Safe]
-    
-    HighRisk --> Report[Generate Report]
-    MedRisk --> Report
-    LowRisk --> Report
-    
-    Report --> End([Display Result])
+flowchart LR
+    User[User] --> UI[Streamlit UI]
+    UI --> Val[Validator]
+    Val --> Features[Feature Engine]
+    Features --> Model[ML Model]
+    Model --> Result[Prediction]
+    Result --> Display[Color-coded Output]
 ```
 
 ## 📊 Model Performance
