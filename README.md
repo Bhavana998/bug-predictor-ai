@@ -133,8 +133,7 @@ pip install -r requirements.txt
 
 # 4. Run the Streamlit app
 streamlit run app.py
-AI Bug Predictor README Generation
-Here is a professional and visually appealing README.md file based on your project details. You can copy and paste this directly into your README.md file.
+
 
 🌟 Key Features
 
