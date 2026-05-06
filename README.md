@@ -98,16 +98,17 @@ flowchart LR
 
 ## 📸 Screenshots
 
-### 🔹 Input Interface
-![Input Interface](https://via.placeholder.com/800x400?text=Input+Interface+Screenshot)
+### 1. Input Interface
+<img src="images/input_interface.png" width="600">
 
-### 🔹 Prediction Result
-![Prediction Result](https://via.placeholder.com/800x400?text=Prediction+Result+Screenshot)
+### 2. Prediction Output
+<img src="images/prediction_output.png" width="600">
 
-### 🔹 Visualization Dashboard
-![Visualization](https://via.placeholder.com/800x400?text=Visualization+Dashboard+Screenshot)
+### 3. Visualization Dashboard
+<img src="images/Dashboard.png" width="600">
 
-*Replace placeholder images with actual screenshots from your app.*
+### 4. Model Performance Comparison
+<img src="images/Model_comparsion.png" width="600">
 
 ---
 
