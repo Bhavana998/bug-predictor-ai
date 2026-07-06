@@ -95,7 +95,23 @@ flowchart LR
 | `Halstead Metrics` | Volume, difficulty, effort |
 
 ---
+## Bug input:
 
+def transfer(sender_balance, receiver_balance, amount):
+
+    sender_balance -= amount
+    
+    if sender_balance < 0:
+    
+        return "Transfer Failed"
+        
+    receiver_balance += amount
+    
+    return sender_balance, receiver_balance
+
+print(transfer(100, 50, 200))
+
+----
 ## 📸 Screenshots
 
 ### 1. Input Interface
